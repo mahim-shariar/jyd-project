@@ -6,7 +6,7 @@ import { Button } from "@nextui-org/react";
 
 const Banner = () => {
   return (
-    <div className="image-bg min-h-screen">
+    <div id="home" className="image-bg min-h-screen">
       <div className="overlay ">
         <div className="flex items-center gap-10">
           <div className="glassy-bg">

@@ -4,7 +4,7 @@ import { MdOutlineReviews } from "react-icons/md";
 
 const Review = () => {
   return (
-    <div className="image-bg-2 my-12">
+    <div className="image-bg-2 my-12" id="reviews">
       <div className="overlay">
         <div>
           <h1 className="text-lg text-[#00dbdb]  font-thin text-center">
