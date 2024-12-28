@@ -53,7 +53,7 @@ const Banner = () => {
               radius="none"
             >
               {" "}
-              Contact Me{" "}
+              Contact US{" "}
             </Button>
           </div>
         </div>

@@ -156,14 +156,14 @@
   transition: 0.3s;
 }
 .input-field:focus {
-  border-color: #14c5fd;
+  border-color: #00dbdb;
 }
 
 /* Submit Button */
 .submit-button {
   width: 100%;
   padding: 10px 20px;
-  background: #14c5fd;
+  background: #00dbdb;
   border: none;
 
   color: #1a1a1a;
@@ -174,6 +174,6 @@
 }
 .submit-button:hover {
   background: #1a1a1a;
-  color: #14c5fd;
-  border: 1px solid #14c5fd;
+  color: #00dbdb;
+  border: 1px solid #00dbdb;
 }

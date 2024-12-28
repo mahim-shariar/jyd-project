@@ -26,7 +26,7 @@ const MyWork = () => {
             Explore more content and videos from me on my YouTube channel.
           </p>
           <button
-            className="mt-5 px-6 py-2 border-2 border-[#14c5fd] bg-[#14c5fd] text-[#1a1a1a] font-semibold hover:bg-[#1a1a1a] hover:border-[#14c5fd] hover:border-2 hover:text-[#14c5fd] transition duration-300"
+            className="mt-5 px-6 py-2 border-2 border-[#00dbdb] bg-[#00dbdb] text-[#1a1a1a] font-semibold hover:bg-[#1a1a1a] hover:border-[#00dbdb] hover:border-2 hover:text-[#00dbdb] transition duration-300"
             onClick={() =>
               window.open(
                 "https://www.youtube.com/@jtcinematography3771",
