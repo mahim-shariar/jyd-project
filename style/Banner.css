@@ -1,0 +1,179 @@
+/* Background container with bigger width */
+.image-bg {
+  background-image: url("../assets/himaloya.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+}
+
+.image-bg-2 {
+  background-image: url("../assets/review.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+}
+
+/* Semi-transparent black overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Blackish overlay effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glassy background container */
+.glassy-bg {
+  background: rgba(0, 0, 0, 0.3); /* Slightly transparent black */
+  /* backdrop-filter: blur(10px); Glassy blur effect */
+  padding: 20px;
+  position: relative;
+  max-width: 700px; /* Adjusted width */
+  max-height: 464px; /* Adjusted height */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Experience badge */
+.experience-badge {
+  position: absolute;
+  top: -40px; /* Floating above top-left corner */
+  left: -40px;
+  z-index: 1;
+}
+
+.experience-badge .bg-color {
+  width: 170px;
+  height: 100px;
+}
+
+/* Main Image */
+.main-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* Ensures the image does not spill out */
+  border-radius: 8px;
+}
+
+/* Glassy Review Card Container */
+.review-card {
+  background: rgba(255, 255, 255, 0.2); /* Transparent white */
+  backdrop-filter: blur(10px); /* Glassy blur effect */
+  padding: 20px;
+  width: 350px; /* Adjust card width as needed */
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  color: white; /* Ensure text is readable */
+  font-family: "Arial", sans-serif;
+  position: relative;
+}
+
+/* Review Text */
+.review-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Footer Section */
+.review-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  right: 20px;
+}
+
+/* Reviewer Name */
+.reviewer-name {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #00dbdb; /* Eye-catching accent color */
+}
+
+/* Icon Style */
+.review-icon {
+  font-size: 1.5rem;
+  color: #ffcc00; /* Suitable color for a review icon (like a star) */
+}
+
+/* Glassy Background for Contact Section */
+.glassy-bg-contact {
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent black */
+  backdrop-filter: blur(20px); /* Glassy blur effect */
+  padding: 40px 20px;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Wrapper */
+.contact-form-wrapper {
+  margin-top: 30px;
+}
+
+/* Input Labels */
+.input-label {
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 500;
+}
+
+/* Input and Textarea Fields */
+.input-field {
+  width: 100%;
+  padding: 10px 15px;
+  background: rgba(
+    255,
+    255,
+    255,
+    0.15
+  ); /* Light transparent field background */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+.input-field:focus {
+  border-color: #14c5fd;
+}
+
+/* Submit Button */
+.submit-button {
+  width: 100%;
+  padding: 10px 20px;
+  background: #14c5fd;
+  border: none;
+
+  color: #1a1a1a;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background: #1a1a1a;
+  color: #14c5fd;
+  border: 1px solid #14c5fd;
+}
