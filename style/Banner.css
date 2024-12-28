@@ -116,7 +116,7 @@
 
 /* Glassy Background for Contact Section */
 .glassy-bg-contact {
-  background: rgba(0, 0, 0, 0.4); /* Semi-transparent black */
+  background: #232323; /* Semi-transparent black */
   backdrop-filter: blur(20px); /* Glassy blur effect */
   padding: 40px 20px;
 
